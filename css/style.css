@@ -180,6 +180,10 @@ transform: translateY(40px);
 
 
 /* ....about-section */
+#about .container{
+    height: auto;
+   margin-bottom: 3em;
+}
 #about h1{
     color: #face30;
 }
@@ -192,6 +196,10 @@ transform: translateY(40px);
 }
 .nav-tabs{
     border-bottom: none;
+}
+.icon i{
+    margin-left: 10px;
+    font-size: 18px;
 }
 .skill li:hover{
     cursor: pointer;
@@ -578,6 +586,10 @@ footer ul li:hover{
     height: 500px;
 }
 
+#about .learn{
+    display: flex;
+}
+
   /* ....service-section */
     .serv{
         padding-left: 40px;
@@ -672,6 +684,12 @@ footer ul li:hover{
         }
         .nav-tabs{
             font-size: 12px;
+        }
+        .learn {
+            margin: 20px;
+        }
+        #service p{
+            padding-right: 15px;
         }
 
 
